@@ -6,6 +6,7 @@ import logo from './logo.svg';
 import './App.css';
 
 const imgDatas = imgDatasJson.map((item) => {
+    console.log('test');
     item.imgUrl = require('./images/' + item.fileName);
     return item;
 })
